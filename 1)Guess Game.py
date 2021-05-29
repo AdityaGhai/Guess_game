@@ -22,7 +22,7 @@ for guessesTaken in range(1,7):  #This will limit the number of guessing
     elif secret_number-guess>=1:
         print("Little bit low, You are close guess again.")
     else:
-        break
+        break  #This is for right guess. It will terminate the for loop.
 
 
 if guess== secret_number:
